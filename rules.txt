@@ -1,0 +1,43 @@
+# replace 4 spaces to tab
+search: [ ]{4}
+replace: \t
+
+# replace 2spaces to tab
+search: [ ]{2}
+replace: \t
+
+# replace 2spaces to tab
+search: ^(\s*)-\s*
+replace: \1
+
+# add a empty checkbox in front of each OU without "*"
+search: ^(\t{,4})(\t{1})([^*.\t])
+replace: \1☐\2\3
+
+# add a empty checkbox in front of each OU without "*"
+search: ^(\t{,4})(\t{1})(\S)
+replace: \1☑\2\3
+
+## Convert 1 tab + asterisk to checkbox with tick
+#search: ^\t(\*)
+#replace: ☑\t\1
+#
+## Convert 2 tabs + asterisk to checkbox with tick
+#search: ^\t\t(\*)
+#replace: \t☑\t\1
+#
+## Convert 3 tabs + asterisk to checkbox with tick
+#search: ^\t\t\t(\*)
+#replace: \t\t☑\t\1
+#
+## Convert 4 tabs + asterisk to checkbox with tick
+#search: ^\t\t\t\t(\*)
+#replace: \t\t\t☑\t\1
+
+
+
+
+
+
+
+
