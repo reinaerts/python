@@ -7,7 +7,6 @@ zur-rose.group
 	      - ...
 	      - *Users*
 	    - Groups
-	      - ...
 		  - *DistributionGroups*
 	    - *Hardware*
 	  - 11_MBZR_Apotheken
@@ -15,13 +14,8 @@ zur-rose.group
 	      - Contacts
 	      - *Users*
 	    - Groups
-	      - ...
 	    - *Hardware*
-	  - Administratoren
-	    - ...
-	  - Cloud
-	    - ...
-	  - Companies
+	  - ...
 	  - Exchangeressourcen
 	    - BlueCare_Kontakte
 	    - onPremise.Postfachbenutzer
@@ -31,79 +25,69 @@ zur-rose.group
 	    - *SAPContacts*
 	  - *ExterneMA*    
 	  - Intercompany
-	    - *Bluecare*
-	    - *Clustertec*
+	    - *Bluecare* //? Gibt es hier User mit ZR Postfach oder SSO
+	    - *Clustertec* //? Gibt es hier User mit ZR Postfach oder SSO
 	    - Comventure
 	    - DocMorris
-	    - *Polyrose*
+	    - *Polyrose* //? Gibt es hier User mit ZR Postfach oder SSO
 	  - Service Accounts
 	    - CH
 	      - *Axapta* //? wird dies noch benötigt. wenn ja ohne Sub OUs
-	      - Backup
-	      - Cisco
-	      - Clustertec
-	        - Prod
-	        - Test
-	      - CommVault
+	      - ...
+	      - *Clustertec //? wird dies noch benötigt. wenn ja ohne Sub OUs
+	      - *CommVault //? wird dies noch benötigt. wenn ja ohne Sub OUs
 	      - CRM
 	        - *Prod*
 	        - Test
-	      - CyberArk
-	      - DocProStar
-	        - PROD
-	        - TEST
-	      - eRX
-	      - Exchange
+	      - *CyberArk //? wird dies noch benötigt. wenn ja ohne Sub OUs
+	      - ...
+	      - *Exchange //? wird dies noch benötigt. wenn ja ohne Sub OUs
 	        - 2010
-	      - F5
-	      - Firewall
-	      - Grafana
-	      - Graylog
-	      - HDMedi
-	      - HIN
-	      - ID VisitControl
-	      - Invaris
-	        - PROD
-	        - TEST
-	      - IPAM
-	      - JiVS
-	      - KabaExos9300
-	      - Kofax
-	      - Logistik
-	      - LVS
-	        - Prod
-	        - Test
-	      - MIM
-	      - Morgenstart
-	      - Netwrix
-	      - Nimbus
-	      - Okta
-	      - Oracle
-	      - Orava
-	        - Prod
-	        - Test
-	      - PaloAlto
-	      - PDFCreator
-	      - Printer
-	      - Proofpoint
-	      - PRTG
-	      - PVS
-	      - RDP-Services
-	      - RTM
-	        - PROD
-	        - TEST
-	      - RX_RKonto
-	        - Prod
-	          - Old
-	        - Test
-	          - Old
-	      - SAP
-	      - SCEP
-	      - ServiceNow
-	      - SLD
-	      - SmartData
-	        - DEV
-	        - PROD
-	        - TEST
-	      - Softwareverteilung
-	      - SolarWinds
+	      - *Printer
+	      - *TCG*
+	      - *Telefonie //? wird dies noch benötigt. wenn ja ohne Sub OUs
+	      - *UC //? wird dies noch benötigt. wenn ja ohne Sub OUs
+	      - *UKA Solutions* //? wird dies noch benötigt. wenn ja ohne Sub OUs
+	  - Sicherheitsgruppen_Benutzer
+	  - Verteilergruppen
+	    - ...
+	    - *Allgemein
+	    - *BU Aerzte
+	    - BU Retail
+	      - Marketing Vertrieb VfG
+	      - Marketing Vertrieb Zur Rose
+	        - *CH
+	        - DE
+	      - *Retail
+	    - Corona
+	    - Externe Kontakte
+	      - Adwords
+	      - *BMS
+	      - IT
+	      - *Polymed
+	      - *Sanofi
+	    - *Finance
+	    - *HR
+	    - *Interne Kontakte
+	    - *IT
+	    - *Kader
+	    - ...
+	    - *Kontakte
+	    - *Operation
+	    - *Qualität
+	    - *RoomLists //? wird dius noch benötigt
+	    - *ZRMB
+	  - W10_FF
+	    - *Desktop
+	    - *Mobiles
+	    - *Mobiles Entra Test
+	    - *Mobiles IT
+	    - ...
+	    - User
+	      - *BI
+	      - DocMorris
+	      - *Logistik
+	      - ZR_Group
+	    - *User IT
+	    - *User IT-Test
+	    - *User Special
